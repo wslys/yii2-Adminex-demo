@@ -1,0 +1,31 @@
+2018/06/21 18:11:38 [error] 27241#27241: *1154 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 102. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 102. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Re" while reading upstream, client: 127.0.0.1, server: backend.demo.com, request: "GET /menus/ HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.1-fpm.sock:", host: "localhost:8881"
+2018/06/21 18:12:16 [error] 27241#27241: *1154 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 103. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 103. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Re" while reading upstream, client: 127.0.0.1, server: backend.demo.com, request: "GET /menus/ HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.1-fpm.sock:", host: "localhost:8881"
+2018/06/21 18:12:42 [error] 27241#27241: *1154 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 103. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/user/www/yii-application-demo/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/user/www/yii-application-demo/common/models/Menus.php on line 103. in /home/user/www/yii-application-demo/vendor/yiisoft/yii2/web/Re" while reading upstream, client: 127.0.0.1, server: backend.demo.com, request: "GET /menus/ HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.1-fpm.sock:", host: "localhost:8881"
+2018/06/22 14:19:23 [error] 27241#27241: *2591 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot redeclare backend\controllers\UiElementsController::actionGeneral() in /home/user/www/yii-application-demo/backend/controllers/UiElementsController.php on line 20" while reading response header from upstream, client: 127.0.0.1, server: backend.demo.com, request: "GET /ui-elements/buttons HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.1-fpm.sock:", host: "localhost:8881"
