@@ -10,7 +10,9 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
-AppAsset::register($this);
+use backend\assets\ColorAdminAsset;
+
+ColorAdminAsset::register($this);
 
 $menus = \common\models\Menus::getMenus();
 
